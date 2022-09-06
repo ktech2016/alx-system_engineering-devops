@@ -1,2 +1,2 @@
 #!/bin/bash
-grep '^[[:upper:]]\|^[[:lower:]]' /etc/ssh/sshd_config
+tr "A" "Z" | tr "c" "e"
